@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<?= URL::to('/') ?>/content/themes/simple/assets/css/font-awesome.min.css" />
     <?= dynamic_styles($settings); ?>
     <script type="text/javascript" src="<?= URL::to('/') ?>/content/themes/simple/assets/js/jquery-1.11.1.min.js"></script>
+    <meta name="viewport" content="width=640, initial-scale=1">
 
 </head>
 <body>

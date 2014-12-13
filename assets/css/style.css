@@ -2,6 +2,7 @@ html, body{
 	padding:0px;
 	margin:0px;
 	font-family:'Helvetica Neue', 'Helvetica', Arial, Geneva, sans-serif;
+	background:#fff;
 }
 
 header{
@@ -62,6 +63,8 @@ input[type="button"], input[type="submit"]{
 	margin:0px auto;
 	padding-top:30px;
 }
+
+
 
 #wrap.single{
 	padding-top:10px;
@@ -148,6 +151,7 @@ ul#menu li ul{
 	padding-left:0px;
 	padding-top:5px;
 	padding-bottom:5px;
+	z-index:10;
 }
 
 ul#menu li ul:hover{
@@ -671,6 +675,24 @@ div.tagsinput div { display:block; float: left; }
 	margin: -30px 0 0 -30px;
 	padding: 0;
 	cursor: pointer;
+}
+
+
+
+@media all and (max-width: 660px) {
+	#wrap{ 
+		width:94%; 
+		padding:0px 2%;
+	}	
+	
+	ul#menu, .search-form, header ul{
+		display:none;
+	}
+	
+	header, subheader h2{
+		text-align:center;
+		
+	}
 }
 
 
